@@ -35,7 +35,7 @@ class CSVFilter {
     }
 
     public static void main(String[] args) {
-        String filePath = "src/main/java/com/ioprogramming/day01csvdatahandling/intermediateproblems/filterrecords/students.csv";
+        String filePath = "src/main/java/com/ioprogramming/day01csvdatahandling/intermediateproblems/filterrecords/large_dataset.csv";
         List<Student> highScorers = filterHighScorers(filePath);
         System.out.println("Students scoring more than 80 marks:");
         printHighScorers(highScorers);

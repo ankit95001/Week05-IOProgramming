@@ -32,7 +32,7 @@ class CSVReader {
     }
 
     public static void main(String[] args) {
-        String filePath = "src/main/java/com/ioprogramming/day01csvdatahandling/basicproblems/readcsv/students.csv";
+        String filePath = "src/main/java/com/ioprogramming/day01csvdatahandling/basicproblems/readcsv/large_dataset.csv";
         List<Student> students = readCSV(filePath);
         printStudents(students);
     }

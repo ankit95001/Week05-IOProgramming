@@ -8,7 +8,7 @@ class CSVReaderTest {
 
     @Test
     void testReadCSV() {
-        List<Student> students = CSVReader.readCSV("src/main/java/com/ioprogramming/day01csvdatahandling/basicproblems/readcsv/students.csv");
+        List<Student> students = CSVReader.readCSV("src/main/java/com/ioprogramming/day01csvdatahandling/basicproblems/readcsv/large_dataset.csv");
         assertNotNull(students);
         assertFalse(students.isEmpty());
 
