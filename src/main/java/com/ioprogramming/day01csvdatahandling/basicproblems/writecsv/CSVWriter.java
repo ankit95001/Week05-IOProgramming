@@ -27,7 +27,7 @@ class CSVWriter {
                 new Employee(5, "Yaman", "Sales", 55000)
         );
 
-        String filePath = "src/main/java/com/ioprogramming/day01csvdatahandling/basicproblems/writecsv/employees.csv";
+        String filePath = "src/main/java/com/ioprogramming/day01csvdatahandling/basicproblems/writecsv/data.csv";
         writeCSV(filePath, employees);
     }
 }
