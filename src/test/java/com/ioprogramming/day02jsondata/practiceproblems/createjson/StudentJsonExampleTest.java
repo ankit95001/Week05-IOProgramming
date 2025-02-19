@@ -1,8 +1,7 @@
-package com.ioprogramming.day02jsondata.practiceproblems;
+package com.ioprogramming.day02jsondata.practiceproblems.createjson;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.ioprogramming.day02jsondata.practiceproblems.createjson.StudentJsonExample;
 import org.junit.jupiter.api.Test;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
