@@ -1,0 +1,10 @@
+{
+  "name": "Ankit",
+  "email": "ankit@example.com",
+  "age": 25,
+  "address": {
+    "city": "Bhopal",
+    "state": "Madhya Pradesh"
+  },
+  "phone": "9876543210"
+}
